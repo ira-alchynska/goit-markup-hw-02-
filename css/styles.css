@@ -1,0 +1,19 @@
+boby {
+  background-color: tomato;
+  color: #212121;
+}
+/* цвет основного текста 212121 */
+/* вторичный цвет текста 757575 */
+/* цвет логотипа 000000; 2196F3 */
+/* белый цвет FFFFFF */
+/* цвет адреса FFFFFF 0.6 */
+/* background color E5E5E5 */
+/* background header FFFFFF */
+/* second background color F5F4FA */
+/* background footer 2F303A */
+.logo {
+  color: #000000;
+}
+.logo {
+  color: #2196f3;
+}
