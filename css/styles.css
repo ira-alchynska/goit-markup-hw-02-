@@ -33,14 +33,17 @@ body {
 .site-nav .link:focus {
   color: #2196f3;
 }
-.hero-titel {
+.auth-nav {
+  color: #757575;
+}
+.auth-nav:hover {
+  color: #2196f3;
+}
+.hero-title {
   color: #ffffff;
 }
 .hero-link {
   color: #ffffff;
-}
-.hero {
-  background-color: #2f303a;
 }
 
 .section .section-text {
