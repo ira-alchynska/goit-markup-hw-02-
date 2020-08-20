@@ -52,11 +52,11 @@ a {
 }
 
 /*адрес*/
-.auth-nav list > a {
+.auth-nav > a[href^="tel"] {
   color: var(--secondary-text);
 }
-.auth-nav list > a:hover,
-.auth-nav list > a:focus {
+.auth-nav > a[href^="tel"]:hover,
+.auth-nav > a[href^="tel"]:focus {
   color: var(--active);
 }
 .auth-nav > a[href^="mailito"] {
@@ -66,35 +66,6 @@ a {
 .auth-nav > a[href^="mailito"]:focus {
   color: var(--active);
 }
-
-/*герой*/
-.hero {
-  background-color: var(--secondary-text);
-}
-.hero-title {
-  color: var(--white);
-}
-/* button*/
-.button {
-  color: var(--white);
-  background-color: var(--active);
-  border-color: var(--active);
-}
-
-/*секция*/
-.section .section-text {
-  color: var(--secondary-text);
-}
-
-/*команда*/
-.people {
-  background-color: var(--gray-bgc);
-}
-
-.people-prof {
-  color: var(--secondary-text);
-}
-
 /*футер*/
 .logo > span {
   color: var(--active);
