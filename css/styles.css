@@ -7,17 +7,21 @@
   --gray-bgc: #f5f4fa;
   --mailito: rgba(255, 255, 255, 0.6);
   --ftr-bcg: #2f303a;
+  
 }
 body {
   color: var(--primary-text);
   background-color: var(--white);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
 
-.list {
+/* убирает маркеры*/
+li {
   list-style: none;
 }
+
+/* убирает подчеркивание*/
 a {
   text-decoration: none;
 }
@@ -36,7 +40,7 @@ a {
 
 .logo > span {
   color: var(--active);
-  font-family: Railway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -44,18 +48,23 @@ a {
 }
 .logo {
   color: var(--black);
-  font-family: Railway, sans-serif;
+
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
 .logo:hover,
-.logo:focus
+.logo:focus {
+  color: var(--active);
+}
 
 /* site-nav */
-.site-nav .link {
-  color: var(--primary-text);
+.site-nav .current {color var(--active)}
+
+.site-nav .link 
+{ color: var(--primary-text);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -69,18 +78,19 @@ a {
   color: var(--active);
 }
 
+
 /*адрес*/
-.auth-nav list > a {
+.auth-nav .link {
   color: var(--secondary-text);
 }
-.auth-nav list > a:hover,
-.auth-nav list > a:focus {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
   color: var(--active);
 }
 
 /*герой*/
 .hero {
-  background-color: var(--secondary-text);
+  background-color: var(--ftr-bcg);
 }
 .hero-title {
   color: var(--white);
@@ -118,6 +128,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .gallery > h2 {
   font-weight: bold;
   font-size: 36px;
@@ -125,6 +136,12 @@ a {
   text-align: center;
 }
 /*команда*/
+.team-section {background-color: var(--gray-bgc)}
+.team-section h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;}
 .people list {
   background-color: var(--gray-bgc);
   font-weight: 500;
@@ -143,8 +160,9 @@ a {
 .logo > span {
   color: var(--active);
 }
-.logo {
-  color: var(--black);
+.logo .logo-white {
+  color: var(--white);
+
 }
 /*адрес*/
 .address {
@@ -152,21 +170,27 @@ a {
   font-size: 14px;
   line-height: 1.71;
 }
-.adress > a:hover,
-.adress > a:focus {
-  color: rgba(255, 255, 255, 0.6);
-}
+.address > a {color: rgba(255, 255, 255, 0.6);}
+.address > a:hover,
+.address > a:focus { color: var(--active);}
+
 footer {
   background-color: var(--ftr-bcg);
 }
 .pictures {
   color: var(--primary-text);
 }
-
-.filter:hover,
-.filter:focus {
+.filter-button {background-color: var(--gray-bgc);
+border-color: var(--gray-bgc);}
+.filter-button:hover,
+.filter-button {
   color: var(--active);
 }
+.filter-button:active {
+  background-color: var(--active);
+  color: var(--white);
+}
+
 button {
   font-family: inherit;
 }
