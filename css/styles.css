@@ -65,10 +65,10 @@ a {
 
 .site-nav .link 
 { color: var(--primary-text);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
