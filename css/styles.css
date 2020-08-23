@@ -180,10 +180,11 @@ footer {
 .pictures {
   color: var(--primary-text);
 }
-.filter-button {background-color: var(--gray-bgc);
+.filter-button { color: var(--primary-text);
+  background-color: var(--gray-bgc);
 border-color: var(--gray-bgc);}
 .filter-button:hover,
-.filter-button {
+.filter-button:focus {
   color: var(--active);
 }
 .filter-button:active {
